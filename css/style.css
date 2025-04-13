@@ -9,12 +9,13 @@ body{
     color: #434455;
     background: #fff;  
     width: 1470px;     
+    margin: 0 auto;
 }
 .container{
-    max-width: 1470px;
+    max-width: 1158px;
     padding: 0 15px;
-    margin: 0 auto;
     box-sizing: border-box;
+    margin: 0  auto;
 }
 /* HEADER */
 a{
@@ -27,6 +28,7 @@ ul{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding: 24px 15px;
 }
 .logo{
     font-family: "Raleway", sans-serif;
@@ -36,7 +38,7 @@ ul{
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4d5ae5;
-    padding: 24px 76px 24px 156px;
+    
 }
 .logo-header{
     color: #2e2f42;
@@ -48,7 +50,6 @@ ul{
 .menu-nav{
     display: flex;
     margin: 0;
-    padding: 24px 332px 24px 0;
     gap: 40px;
     
 }
@@ -78,7 +79,6 @@ a.list-header:hover, a.list-header:focus{
     font-style: normal;
     display: flex;
     margin: 0;
-    padding: 24px 156px 24px 0;
     gap: 40px;
 
 }
@@ -101,6 +101,15 @@ a.list-header:hover, a.list-header:focus{
            
 }
 
+.container-main-studio {
+    padding: 188px 0px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: 0 auto;
+    gap: 48px;
+}
+
 .h-one{
     font-family: "Roboto", sans-serif;
     font-weight: 700;
@@ -109,8 +118,9 @@ a.list-header:hover, a.list-header:focus{
     letter-spacing: 0.02em;
     text-align: center;
     color: #fff;
-    margin: 0%;
-    padding: 188px 472px 48px 472px;
+    max-width: 500px;
+    margin: 0;
+    
 }
 .button{
     cursor: pointer;
@@ -121,21 +131,27 @@ a.list-header:hover, a.list-header:focus{
     letter-spacing: 0.04em;
     color: #fff;    
     background: #4d5ae5;
-    width: 169px;
-    height: 56px;
     gap: 10px;
-      
-}
-.studio-button{
-    max-width: 1470px;
-    padding: 0 635px 188px 636px;
+    padding: 16px 32px;
     border-radius: 4px;
-    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15); 
+    border: 0;     
 }
+
 .button:focus, .button:hover{
         background: #404bbf;
 }
 /* ВТОРАЯ СЕКИЯ */
+.container-main-portfolio{
+    display: flex;
+    padding: 120px 15px;
+}
+.portfolio-list {
+    display: flex;
+    gap: 24px;
+    margin: 0;
+    padding: 0;
+}
 .visually-hidden{
     position: absolute;
     width: 1px;
@@ -154,6 +170,7 @@ a.list-header:hover, a.list-header:focus{
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2e2f42;
+    margin: 0 0 8px 0;
 
 }
 .portfolio-h-three-info{
@@ -164,13 +181,29 @@ a.list-header:hover, a.list-header:focus{
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
+    margin: 0;
 }
 /* ТРЕТЬЯ СЕКИЯ */
+.container-main-contacts{
+    padding: 120px 15px;
+    gap: 72px;
+    display: flex;
+    flex-direction: column;
+}
 .contacts{
     background: #f4f4fd;    
 }
-.list-contacts{
-    background-color: #FFFFFF
+.contacts-list{
+    display: flex;
+    gap: 24px;
+    margin: 0;
+    padding: 0;
+
+}
+.contacts-item{
+    background-color: #FFFFFF;
+    border-radius: 0 0 4px 4px;
+    box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
 }
 
 .contacts-h-two-team{
@@ -183,6 +216,7 @@ a.list-header:hover, a.list-header:focus{
     text-align: center;
     text-transform: capitalize;
     color: #2e2f42;
+    margin: 0;
 }
 .contacts-h-three-team{
     font-weight: 500;
@@ -204,6 +238,21 @@ a.list-header:hover, a.list-header:focus{
     color: #434455;
 }
 /* ЧЕТВЕРТАЯ СЕКИЯ */
+.container-main-ourportfolio{
+    padding: 120px 15px;
+    gap: 72px;
+    display: flex;
+    flex-direction: column;
+}
+.port-list{
+    display: flex;
+    gap: 48px 24px;
+    margin: 0;
+    padding: 0;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+}
 .h-two-port{
     font-weight: 700;
     font-size: 36px;
@@ -213,7 +262,8 @@ a.list-header:hover, a.list-header:focus{
     letter-spacing: 0.02em;
     text-align: center;
     color: #2e2f42;
-    text-transform: capitalize
+    text-transform: capitalize;
+    margin: 0;
 }
 .h-three-port{
     font-weight: 500;
@@ -223,6 +273,16 @@ a.list-header:hover, a.list-header:focus{
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2e2f42;
+    margin: 0;
+}
+.port-info-container{
+    display: flex;
+    flex-direction: column;
+    border-bottom: 1px solid #e7e9fc;
+    border-left: 1px solid #e7e9fc;
+    border-right: 1px solid #e7e9fc;
+    gap: 8px;
+    padding: 32px 16px;
 }
 .port-info{
     font-weight: 400;
@@ -231,9 +291,15 @@ a.list-header:hover, a.list-header:focus{
     /* line-height: 24px; */ 
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: #434455;   
+    color: #434455; 
+    margin: 0;  
 }
 /* ФУТЕР СЕКИЯ */
+.container-footer{
+    max-width: 264px;
+    padding: 100px 0;
+    
+}
 .box-footer{
     background: #2e2f42;
 }
@@ -255,6 +321,7 @@ a.list-header:hover, a.list-header:focus{
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #f4f4fd;
+    margin-bottom: 0;
 }
 
 
