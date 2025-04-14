@@ -31,7 +31,11 @@ ul{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 24px 0 24px 0;
+    /* padding: 24px 0 24px 0; */
+}
+.box-header{
+    border-bottom: 1px solid #e7e9fc;
+    padding: 0 15px 0 15px;
 }
 .logo{
     font-family: "Raleway", sans-serif;
@@ -50,6 +54,7 @@ ul{
 .box-header-nav{
     display: flex;
     align-items: center;
+    padding: 24px 0
 }
 .menu-nav{
     display: flex;
@@ -84,6 +89,7 @@ a.list-header:hover, a.list-header:focus{
     display: flex;
     margin: 0;
     gap: 40px;
+    padding: 24px 0;
 
 }
 .mail-tel{
