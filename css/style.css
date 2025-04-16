@@ -75,6 +75,7 @@ a.list-header{
     line-height: 150%;
     letter-spacing: 0.02em;
     color: #2e2f42;
+    padding: 24px 0;
 }
 a.list-header:hover, a.list-header:focus{
     font-family: "Roboto", sans-serif;
