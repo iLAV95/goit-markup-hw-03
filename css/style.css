@@ -46,6 +46,7 @@ ul{
     text-transform: uppercase;
     color: #4d5ae5;
     margin-right: 76px;
+    display: inline-block;
     
 }
 .logo-header{
@@ -54,13 +55,13 @@ ul{
 .box-header-nav{
     display: flex;
     align-items: center;
-    padding: 24px 0
+    /* padding: 24px 0 */
 }
 .menu-nav{
     display: flex;
     margin: 0;
     gap: 40px;
-    
+    padding: 24px 0
 }
 
 a.list-header{
@@ -319,11 +320,24 @@ a.list-header:hover, a.list-header:focus{
 }
 /* ФУТЕР СЕКИЯ */
 .container-footer{
-    max-width: 264px;    
+    max-width: 264px;
+    margin-left: 156px; 
 }
 .box-footer{
     background: #2e2f42;
     padding: 100px 0;
+}
+.logo-link{
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #4d5ae5;
+    margin-right: 76px;
+    display: inline-block;
+    margin-bottom: 16px;
 }
 .logo-footer{
     font-weight: 700;
@@ -334,6 +348,7 @@ a.list-header:hover, a.list-header:focus{
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #f4f4fd;
+    
 }
 .info-footer{
     font-weight: 400;
@@ -344,6 +359,7 @@ a.list-header:hover, a.list-header:focus{
     letter-spacing: 0.02em;
     color: #f4f4fd;
     margin-bottom: 0;
+    margin-top: 0;
 }
 
 
