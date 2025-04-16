@@ -168,6 +168,9 @@ a.list-header:hover, a.list-header:focus{
     margin: 0;
     padding: 0;
 }
+li.portfolio-item{
+    width: calc((100% - 72px) / 4);
+}
 .visually-hidden{
     position: absolute;
     width: 1px;
