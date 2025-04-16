@@ -47,6 +47,7 @@ ul{
     color: #4d5ae5;
     margin-right: 76px;
     display: inline-block;
+    padding: 24px 0;
     
 }
 .logo-header{
@@ -61,7 +62,7 @@ ul{
     display: flex;
     margin: 0;
     gap: 40px;
-    padding: 24px 0
+    padding: 24px 0;
 }
 
 a.list-header{
