@@ -8,8 +8,7 @@ body{
     font-weight: 400;
     color: #434455;
     background: #fff;  
-    width: 1470px;     
-    margin: 0 auto;
+    
 }
 .container{
     max-width: 1158px;
@@ -19,6 +18,10 @@ body{
 }
 img {
     display: block;
+}
+ul{
+    padding-left: 0;
+    margin: 0;
 }
 /* HEADER */
 a{
@@ -35,7 +38,6 @@ ul{
 }
 .box-header{
     border-bottom: 1px solid #e7e9fc;
-    padding: 0 15px 0 15px;
 }
 .logo{
     font-family: "Raleway", sans-serif;
@@ -62,7 +64,6 @@ ul{
     display: flex;
     margin: 0;
     gap: 40px;
-    padding: 24px 0;
 }
 
 a.list-header{
@@ -92,8 +93,6 @@ a.list-header:hover, a.list-header:focus{
     display: flex;
     margin: 0;
     gap: 40px;
-    padding: 24px 0;
-
 }
 .mail-tel{
     
@@ -325,8 +324,7 @@ li.portfolio-item{
 }
 /* ФУТЕР СЕКИЯ */
 .container-footer{
-    max-width: 264px;
-    margin-left: 156px; 
+     
 }
 .box-footer{
     background: #2e2f42;
@@ -365,6 +363,7 @@ li.portfolio-item{
     color: #f4f4fd;
     margin-bottom: 0;
     margin-top: 0;
+    width: 264px;
 }
 
 
